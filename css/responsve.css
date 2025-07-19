@@ -1,0 +1,38 @@
+/* mobile device */
+@media screen and (max-width: 576px) {
+    /* header section start */
+    nav ul{
+        display: block;
+    }
+    .header-container{
+        display: block;
+    }
+    .banner{
+        padding: 20px 0;
+        display: block;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    /* header section end */
+
+
+   
+    
+
+}
+
+
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+
+
+
+
+
+}
