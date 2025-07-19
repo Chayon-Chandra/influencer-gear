@@ -19,6 +19,11 @@
         width: 100%;
     }
     /* header section end */
+    /* sponsor section start */
+    .sponsor-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* sponsor section end */
 
 
    
@@ -30,7 +35,8 @@
 
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px){
-
+   
+    
 
 
 
