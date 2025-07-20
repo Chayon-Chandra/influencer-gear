@@ -249,13 +249,60 @@ nav ul li a:hover{
     color: var(--secondary-whit-color);
     background-color: var(--secondary-pink-color);
     font-size: var(--font-paragraph-16);
-    font-weight: 700;
+    font-weight: 400;
     border-style: none;
     cursor: pointer;
 }
 .feature-text button:hover{
     color:var(--secondary-pink-color);
     background-color: var(--dark-color);
-    transition-duration: .3s;
+    transition-duration: .5s;
+    border-radius: 20px;
 }
 /* Featured products section end */
+/* footer section start */
+footer{
+    padding: 60px 0;
+    background-color: #18191F;
+}
+.footer-container{
+    text-align: center;
+}
+.footer-container h2{
+    margin-bottom: 20px;
+    font-family:Poppins-Bold;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-container p{
+    font-family:Inter-Regular;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-nav{
+    margin-top: 30px;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-nav ul li a{
+    width: 60px;
+    height: 60px;
+    background-color: #22213C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav ul li a{
+    /* position:absolute; */
+}
+.footer-nav ul li i{
+    font-size: 20px;
+    color:#FFFFFF;
+}
+/* footer section end */
