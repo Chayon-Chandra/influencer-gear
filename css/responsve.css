@@ -34,7 +34,18 @@
         justify-content: center;
     }
     /* Popular Collection section end */
-
+    /* Featured products section start */
+    .feature-container{
+        display: block;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .feature-text{
+        margin-top: 30px;
+        width: 100%;
+    }
+    /* Featured products section end */
 
    
     
@@ -55,6 +66,18 @@
         justify-content: center;
     }
     /* Popular Collection section end */
+    /* Featured products section start */
+    .feature-container{
+        display: block;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .feature-text{
+        margin-top: 30px;
+        width: 100%;
+    }
+    /* Featured products section end */
 
 
 

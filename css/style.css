@@ -214,3 +214,48 @@ nav ul li a:hover{
     transition-duration: .3s;
 }
 /* Popular Collection section end */
+/* Featured products section start  */
+.feature-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#feature{
+    margin: 60px 0;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-text{
+    width: 50%;
+}
+.feature-text h2{
+    font-family:Poppins-Bold;
+    color: var(--dark-color);
+    font-size: 2.37rem;
+    font-weight: 700;
+}
+.feature-text p{
+    margin: 20px 0;
+    font-family:Poppins-Bold;
+    color: var(--gary-color);
+    font-size: var(--font-paragraph-16);
+}
+.feature-text button{
+    padding: 10px 20px;
+    font-family:Inter-Regular;
+    color: var(--secondary-whit-color);
+    background-color: var(--secondary-pink-color);
+    font-size: var(--font-paragraph-16);
+    font-weight: 700;
+    border-style: none;
+    cursor: pointer;
+}
+.feature-text button:hover{
+    color:var(--secondary-pink-color);
+    background-color: var(--dark-color);
+    transition-duration: .3s;
+}
+/* Featured products section end */
